@@ -7,7 +7,7 @@ interface OpenAiRun extends OpenAiEntity {
 }
 
 export const apiKey = (): string => {
-  return 'sk-svcacct-8cbgc2dwc89cjMBVP3mdVoov7_g5xdSpHkzGt0-roV7AkQQ9ixjZNY1LgZCFpT3BlbkFJ_z5uvcskKR9bP8OzQuZLHdrEkkQDesgpwPJ5VLNpswEqyQer720E_jzqk45AA';
+  return '';
 };
 
 export const authHeader = (): { Authorization: string } => {
